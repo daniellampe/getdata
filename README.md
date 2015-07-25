@@ -12,6 +12,10 @@ This repository is created to host the course project files for Getting and Clea
 
 `final.txt` - tidy data set created by the R script
 
+# Data
+
+Data used in this project was downloaded from the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 # Script
 
 `run_analysis.r` R script file can be run in Rstudio
