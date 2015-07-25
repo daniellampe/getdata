@@ -24,9 +24,9 @@ Data should be extracted to the R working directory.
 
 `run_analysis.r` R script file was written in RStudio. It requires the data to be in the R working directory without modifying file names.
 
-The script reads data files, merges them, does some manipulation on data column names and finally summarizes selected variables by activites and test subject and writes the results to a file in the R working directory.
+The script reads data files, merges them, does some manipulation on data column names and finally summarizes selected variables by activites and test subjects and writes the results to a file in the R working directory.
 
-Additional comments can be found in the script file.
+Additional guidance can be found in the script file.
 
 
 
