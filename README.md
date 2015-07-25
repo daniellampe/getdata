@@ -28,6 +28,22 @@ The script reads data files, merges them, does some manipulation on data column 
 
 Additional guidance can be found in the script file.
 
+##Section 1
 
+The script reads necessary data files (train and test data), merges them and modifies column names. The relation between data files is described in the `README.txt` file; after extracting downloaded compressed file.
 
+##Section 2
 
+The scripts selects only those columns that are measurements on mean and standard deviation. It looks for the 'mean' and 'std' strings to appear in column names and selects those columns from the dataset.
+
+##Section 3
+
+Activites performed by test subjects are indicated with codes. This value is updated in this section using the activity names linked to codes. This relation is described in `activity_labels.txt` file.
+
+##Section 4
+
+Variable names are modified to give a better description of the variables used.
+
+##Section 5
+
+Data is grouped by test subjects and activities and the average of every variable is calculated by every test subject and activity. The result is written to a file in the R working directory.
