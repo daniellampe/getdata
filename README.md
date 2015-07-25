@@ -4,10 +4,13 @@ This repository is created to host the course project files for Getting and Clea
 
 # Files in this repository
 
-<p>`Readme.md` - this file</p>
-<p>`Codebook.md` - Codebook describing variables that are used in datasets</p>
-<p>`run_analysis.r` - R script file</p>
-<p>`final.txt` - tidy data set created by the R script</p>
+`Readme.md` - this file
+
+`Codebook.md` - Codebook describing variables that are used in datasets
+
+`run_analysis.r` - R script file
+
+`final.txt` - tidy data set created by the R script
 
 # Script
 
