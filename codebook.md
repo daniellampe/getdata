@@ -113,3 +113,20 @@ tBodyAccJerkMean
 tBodyGyroMean
 
 tBodyGyroJerkMean
+
+#Modification on original data
+
+The script modifies the following on the original data:
+
+Only those columns are selected that are measurements of mean or standard deviation (if column name contains the word "mean" or "std"). The selected columns are renamed as follows:
+
+<ul>
+<li>^t prefix is replaced with "time"</li>
+<li>^f prefix is replaced with "frequency"</li>
+<li>"Acc" replaced with "Accelerometer"</li>
+<li>"Gyro" replaced with "Gyroscope"</li>
+<li>"Mag" replaced with "Magnitude"</li>
+<li>"mean()" replaced with "Mean()"</li>
+<li>"std()" replaced with "Stdev()"</li>
+</ul>
+
