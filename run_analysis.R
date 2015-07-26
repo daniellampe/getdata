@@ -54,7 +54,6 @@ names(alldata)<-gsub("^f", "frequency", names(alldata))
 names(alldata)<-gsub("Acc", "Accelerometer", names(alldata))
 names(alldata)<-gsub("Gyro", "Gyroscope", names(alldata))
 names(alldata)<-gsub("Mag", "Magnitude", names(alldata))
-names(alldata)<-gsub("BodyBody", "Body", names(alldata))
 names(alldata)<-gsub("mean", "Mean", names(alldata))
 names(alldata)<-gsub("std", "Stdev", names(alldata))
 
